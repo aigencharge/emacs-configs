@@ -1,0 +1,12 @@
+--2023-01-10 18:35:08--  https://www.toptal.com/developers/gitignore/api/emacs
+Carregou certificado CA "/etc/ssl/certs/ca-certificates.crt"
+Resolvendo www.toptal.com (www.toptal.com)... 2606:4700::6812:1cd5, 2606:4700::6812:1dd5, 104.18.28.213, ...
+Conectando-se a www.toptal.com (www.toptal.com)|2606:4700::6812:1cd5|:443... conectado.
+A requisição HTTP foi enviada, aguardando resposta... 200 OK
+Tamanho: 721 [text/plain]
+Salvando em: “emacs”
+
+     0K                                                       100% 13,0M=0s
+
+2023-01-10 18:35:08 (13,0 MB/s) - “emacs” salvo [721/721]
+
