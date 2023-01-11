@@ -182,5 +182,7 @@
 
 
 
+;; helm package
+(straight-use-package 'helm)
 
 
