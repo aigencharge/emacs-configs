@@ -191,3 +191,10 @@
 
 (helm-mode 1)
 
+
+;; LSP package
+(straight-use-package 'lsp-mode)
+(straight-use-package 'lsp-ui)
+
+
+
