@@ -1,3 +1,3 @@
 # emacs-configs
 
-Minha configuraç
+Minha configuração do emacs
