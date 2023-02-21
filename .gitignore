@@ -57,3 +57,9 @@ straight
 
 .cache/
 transient/
+
+eln-cache/
+.lsp-session-v1
+.lsp-session-*
+
+
