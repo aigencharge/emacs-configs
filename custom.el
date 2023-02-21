@@ -5,7 +5,9 @@
  ;; If there is more than one, they won't work right.
  '(global-display-line-numbers-mode t)
  '(package-selected-packages '(company-maxima company use-package))
- '(scroll-bar-mode nil))
+ '(scroll-bar-mode nil)
+ '(warning-suppress-log-types '((initialization)))
+ '(warning-suppress-types '((initialization) (initialization))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
@@ -53,8 +55,6 @@
       (goto-char (point-max))
       (eval-print-last-sexp)))
   (load bootstrap-file nil 'nomessage))
-
-(add-hook 'after-init-hook 'global-company-mode)
 
 ;; Treemacs
 
@@ -230,4 +230,15 @@
     :straight t
     :config
     (which-key-mode))
+
+
+(use-package company
+  :straight t
+  :ensure t
+  :config
+  (company-mode))
+
+(add-hook 'after-init-hook 'global-company-mode)
+
+
 
